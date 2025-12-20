@@ -98,12 +98,12 @@ export const PUBLICATIONS_DATA: Publication[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: "proj-1",
-    title: "ragBE – Bilingual Retrieval-Augmented Generation System",
-    description: "A fully functional RAG system for conversational Q&A in English and Bengali. Supports PDF/DOCX/TXT ingestion, multilingual semantic search (paraphrase-multilingual-MiniLM-L12-v2 embeddings), ChromaDB vector store, and Google Gemini LLM orchestration via LangChain.",
+    title: "Depression Severity Predictor",
+    description: "proof-of-concept (PoC) for predicting multiclass depression severity among school teachers in Bangladesh.",
     category: "Featured Project",
-    imageText: "RAG",
-    githubUrl: "https://github.com/Goffar-dp/ragBE",
-    demoUrl: "https://ragbe0.streamlit.app/"
+    imageText: "DEPRESSION",
+    githubUrl: "https://github.com/Goffar-dp/depression_severity_predictor",
+    demoUrl: "https://huggingface.co/spaces/goooofar/depression-severity-predictor/"
   }
 ];
 
