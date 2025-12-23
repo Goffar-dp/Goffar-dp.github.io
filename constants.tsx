@@ -11,7 +11,7 @@ export const NEWS_DATA: NewsItem[] = [
   {
     date: "Nov, 2025",
     content: "Early results from MSc thesis accepted as contributory poster at ICASDS 2025 (International Conference on Applied Statistics and Data Science, ISRT, Dhaka University)",
-    link: "https://icasds2025.isrt.ac.bd",
+    link: "https://drive.google.com/file/d/1Vbw1o4vFOR0WLpyWd4SCFBom7apPF8Y2/view?usp=drive_link",
     linkText: "ICASDS 2025"
   },
   {
@@ -44,7 +44,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
   {
     id: "pub-0",
     title: "Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI: News from Bangladesh, India, and Pakistan",
-    authors: "Sish Ahemmed Shozol, Md. Goffar Hossain, et al.",
+    authors: "Shozol, S. A., Hossain, M. G., & Mahdy, M.R.C. (2025, Dec)",
     venue: "28th International Conference on Computer and Information Technology (ICCIT) 2025, Cox's Bazar, Bangladesh (IEEE)",
     year: 2025,
     thumbnail: "ICCIT",
@@ -55,12 +55,12 @@ export const PUBLICATIONS_DATA: Publication[] = [
   {
     id: "pub-1",
     title: "Developing an Ensemble Model for Predicting Depression among School Teachers: A Cross-sectional Study in Rajshahi and Khulna Regions of Bangladesh",
-    authors: "Md. Goffar Hossain, Md. Showrov Hossain, Md. Sakhawat Arfin, Md. Shoebuj Zaman, Md. Asadujjaman, Tonmoy Kumar Roy, Sharlene Alauddin, and Md. Maniruzzaman",
+    authors: "Hossain, M. G., Hossain, Md. S., Arfin, Md. S., Zaman, Md. S., Asadujjaman, Md., Roy, T. K., Alauddin, S., & Maniruzzaman, Md. (2025).",
     venue: "Contributory Poster, International Conference on Applied Statistics and Data Science (ICASDS) 2025, ISRT, Dhaka University",
     year: 2025,
     thumbnail: "ICASDS",
     type: "Poster",
-    pdfUrl: "https://icasds2025.isrt.ac.bd"
+    pdfUrl: "https://drive.google.com/file/d/1Vbw1o4vFOR0WLpyWd4SCFBom7apPF8Y2/view?usp=sharing"
   },
   {
     id: "pub-2",
@@ -76,22 +76,22 @@ export const PUBLICATIONS_DATA: Publication[] = [
   {
     id: "pub-3",
     title: "Impact of Covid-19 outbreak on the food habits and nutritional status of Khulna's citizens",
-    authors: "Sutapa Dey Barna, Md. Abdul Quayyum, and Md. Goffar Hossain",
+    authors: "Barna, S. D., Quayyum, A., Hossain, M. G., Islam, A., & Rahman, F. (2025)",
     venue: "Poster Presentation, IQAC-2025 Conference, Khulna University",
     year: 2025,
     thumbnail: "IQAC",
     type: "Poster",
-    pdfUrl: "#"
+    pdfUrl: "https://drive.google.com/file/d/1R4ohTIDkH6gyzJXTsSwjZhSyQ62r51Ng/view?usp=sharing"
   },
   {
     id: "pub-4",
     title: "Cross-National Media Framing of Mass Movements: A Comparative Study of the July 2024 Uprising in South Asia",
-    authors: "Sish Ahemmed Shozol and Md. Goffar Hossain",
+    authors: "Shozol, S. A., & Hossain, M. G. (2025, July)",
     venue: "Poster Presentation, International Conference on July Revolution (ICJR-I), 2025",
     year: 2025,
     thumbnail: "ICJR",
     type: "Poster",
-    pdfUrl: "#"
+    pdfUrl: "https://drive.google.com/file/d/1GAIo2Cg5wLoTFmLpa_9jbVKV-oi1vFK3/view?usp=sharing"
   }
 ];
 
