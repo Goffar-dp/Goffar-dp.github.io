@@ -114,7 +114,7 @@ const App: React.FC = () => {
         </li>
         <li>
           <a 
-            href="https://goffar-dp.github.io/Fahim's%20CV.pdf" 
+            href="https://drive.google.com/file/d/1w3_Ccz2-s9wMVv8cpKbGYAqi8Fch5zLS/view?usp=sharing" 
             target="_blank"
             className={`transition-colors ${isDarkMode ? 'text-gray-400 hover:text-blue-500' : 'text-slate-500 hover:text-blue-600'}`}
           >
