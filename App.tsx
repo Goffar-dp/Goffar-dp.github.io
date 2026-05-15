@@ -164,18 +164,41 @@ const App: React.FC = () => {
     <div className="animate-fadeIn">
       <h2 className={`text-3xl font-bold mb-6 ${isDarkMode ? 'text-gray-100' : 'text-slate-900'}`}>Hey, thanks for stopping by! 👋</h2>
       <div className={`space-y-6 text-lg text-justify ${isDarkMode ? 'text-gray-300' : 'text-slate-600'}`}>
-        <p>
-          I am an <strong className={isDarkMode ? 'text-white' : 'text-slate-900'}>MSc (Thesis) student in Statistics at Khulna University</strong>, supervised by 
-          <a href="https://ku.ac.bd/discipline/stat/faculty/monir.stat91" target="_blank" className={`mx-1 hover:underline font-medium ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}>Dr. Md. Maniruzzaman</a>. 
-          My current research focuses on designing an <strong className={isDarkMode ? 'text-blue-300' : 'text-blue-700'}>integrated ML + NLP + XAI system</strong> for simultaneous detection of depression and anxiety among school teachers in Bangladesh.
-        </p>
-        <p>
-          Previously, co-authored a <em className="italic">PLOS One</em> article (2025) on <strong className={isDarkMode ? 'text-white' : 'text-slate-900'}>trends and determinants of antenatal care</strong>, and completed my BSc thesis on <strong className={isDarkMode ? 'text-white' : 'text-slate-900'}>Fake news detection with XAI</strong> – supervised by 
-          <a href="https://ku.ac.bd/discipline/stat/faculty/sutapaborna.ku" target="_blank" className={`mx-1 hover:underline font-medium ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}>Sutapa Dey Barna</a>.
-        </p>
-        <p>
-          In my free time, I enjoy sports, mostly football, travelling, and sleeping.
-        </p>
+<p>
+  Hey, thanks for stopping by! 👋
+</p>
+
+<p>
+  I am an <strong className={isDarkMode ? 'text-white' : 'text-slate-900'}>
+    MSc student in Statistics at Khulna University
+  </strong>, working with 
+  <a 
+    href="https://ku.ac.bd/discipline/stat/faculty/monir.stat91" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className={`mx-1 hover:underline font-medium ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}
+  >
+    Dr. Md. Maniruzzaman
+  </a>
+  on applied machine learning and explainable AI for health research. My current work focuses on mental health prediction and interpretable decision support.
+</p>
+
+<p>
+  Previously, I worked with 
+  <a 
+    href="https://ece.northsouth.edu/people/mahdy-rahman-chowdhury/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className={`mx-1 hover:underline font-medium ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}
+  >
+    Dr. Mahdy Rahman Chowdhury’s research group
+  </a>
+  , where I developed my foundation in NLP research and LLM-based modeling.
+</p>
+
+<p>
+  In my free time, I enjoy sports, mostly football, traveling, and reading.
+</p>
       </div>
       <NewsSection />
       <SocialLinks />
