@@ -36,7 +36,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "Journal manuscript, manuscript in preparation",
     year: 2026,
     thumbnail: "MS",
-    type: "PDF"
+    type: "Paper"
   },
   {
     id: "pub-2026-2",
@@ -45,7 +45,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "PECCII 2026, accepted",
     year: 2026,
     thumbnail: "PECCII",
-    type: "PDF"
+    type: "Paper"
   },
   {
     id: "pub-2026-3",
@@ -54,7 +54,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "1st International Conference on Multidisciplinary Research in Sciences (ICMRS 2026), abstract",
     year: 2026,
     thumbnail: "ICMRS",
-    type: "PDF",
+    type: "Paper",
     pdfUrl: "https://drive.google.com/file/d/1k7BR2LLhrurkOHtvaVKtgAl_lrVqNA3_/view?usp=sharing"
   },
   {
@@ -64,9 +64,8 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "28th International Conference on Computer and Information Technology (ICCIT 2025), IEEE",
     year: 2025,
     thumbnail: "ICCIT",
-    type: "DOI",
-    doi: "10.1109/ICCIT68739.2025.11491590",
-    pdfUrl: "https://doi.org/10.1109/ICCIT68739.2025.11491590"
+    type: "Paper",
+    doi: "10.1109/ICCIT68739.2025.11491590"
   },
   {
     id: "pub-2025-2",
@@ -75,9 +74,8 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "PLOS ONE",
     year: 2025,
     thumbnail: "PLOS ONE",
-    type: "DOI",
-    doi: "10.1371/journal.pone.0337449",
-    pdfUrl: "https://doi.org/10.1371/journal.pone.0337449"
+    type: "Paper",
+    doi: "10.1371/journal.pone.0337449"
   },
   {
     id: "pub-2025-3",
@@ -86,7 +84,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "International Conference on Applied Statistics and Data Science 2025 (ICASDS 2025), University of Dhaka",
     year: 2025,
     thumbnail: "ICASDS",
-    type: "POSTER",
+    type: "Poster",
     pdfUrl: "https://drive.google.com/file/d/1GyQWHf9g5NomTS_nc7z55uOaM5Q60Q5A/view?usp=drive_link"
   },
   {
@@ -96,10 +94,12 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "1st International Conference on the July Revolution (ICJR-I 2025), University of Dhaka",
     year: 2025,
     thumbnail: "ICJR-I",
-    type: "POSTER",
+    type: "Poster",
     pdfUrl: "https://drive.google.com/file/d/1Gfj0enSRqMXsfgCoGK_5BCRaPM6uMO_s/view?usp=drive_link"
   }
 ];
+
+
 export const PROJECTS_DATA: Project[] = [
   {
     id: "proj-1",
