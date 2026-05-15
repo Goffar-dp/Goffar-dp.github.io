@@ -29,39 +29,34 @@ export const NEWS_DATA: NewsItem[] = [
 ];
 
 export const PUBLICATIONS_DATA: Publication[] = [
-  // 2026
   {
     id: "pub-2026-1",
     title: "Ensemble Model for Predicting Depression among School Teachers: A Cross-sectional Study in Rajshahi and Khulna Regions of Bangladesh",
     authors: "Hossain, M. G., & Maniruzzaman, M.",
-    venue: "Journal manuscript",
+    venue: "Journal manuscript, manuscript in preparation",
     year: 2026,
-    thumbnail: "Manuscript",
-    type: "Journal Manuscript",
-    status: "To be submitted"
+    thumbnail: "MS",
+    type: "PDF"
   },
   {
     id: "pub-2026-2",
     title: "Development of Predictive Models for Gallstone Disease Using Machine Learning Techniques",
     authors: "Nahin, M. H., Barman, S. K., Hossain, M. G., & Maniruzzaman, M. (2026, Jun)",
-    venue: "PECCII 2026",
+    venue: "PECCII 2026, accepted",
     year: 2026,
     thumbnail: "PECCII",
-    type: "Conference Paper",
-    status: "Accepted"
+    type: "PDF"
   },
   {
     id: "pub-2026-3",
     title: "An Interpretable Fake News Detection Framework: From Classical Machine Learning to Transformers with LIME",
     authors: "Hossain, M. G., Shozol, S. A., Hossain, K. S., & Barna, S. D. (2026, Jan)",
-    venue: "1st International Conference on Multidisciplinary Research in Sciences (ICMRS 2026)",
+    venue: "1st International Conference on Multidisciplinary Research in Sciences (ICMRS 2026), abstract",
     year: 2026,
     thumbnail: "ICMRS",
-    type: "Conference Abstract",
+    type: "PDF",
     pdfUrl: "https://drive.google.com/file/d/1k7BR2LLhrurkOHtvaVKtgAl_lrVqNA3_/view?usp=sharing"
   },
-
-  // 2025
   {
     id: "pub-2025-1",
     title: "Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI",
@@ -69,7 +64,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "28th International Conference on Computer and Information Technology (ICCIT 2025), IEEE",
     year: 2025,
     thumbnail: "ICCIT",
-    type: "Conference Paper",
+    type: "DOI",
     doi: "10.1109/ICCIT68739.2025.11491590",
     pdfUrl: "https://doi.org/10.1109/ICCIT68739.2025.11491590"
   },
@@ -80,7 +75,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "PLOS ONE",
     year: 2025,
     thumbnail: "PLOS ONE",
-    type: "Journal Article",
+    type: "DOI",
     doi: "10.1371/journal.pone.0337449",
     pdfUrl: "https://doi.org/10.1371/journal.pone.0337449"
   },
@@ -91,7 +86,7 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "International Conference on Applied Statistics and Data Science 2025 (ICASDS 2025), University of Dhaka",
     year: 2025,
     thumbnail: "ICASDS",
-    type: "Conference Poster",
+    type: "POSTER",
     pdfUrl: "https://drive.google.com/file/d/1GyQWHf9g5NomTS_nc7z55uOaM5Q60Q5A/view?usp=drive_link"
   },
   {
@@ -101,11 +96,10 @@ export const PUBLICATIONS_DATA: Publication[] = [
     venue: "1st International Conference on the July Revolution (ICJR-I 2025), University of Dhaka",
     year: 2025,
     thumbnail: "ICJR-I",
-    type: "Conference Poster",
+    type: "POSTER",
     pdfUrl: "https://drive.google.com/file/d/1Gfj0enSRqMXsfgCoGK_5BCRaPM6uMO_s/view?usp=drive_link"
   }
 ];
-
 export const PROJECTS_DATA: Project[] = [
   {
     id: "proj-1",
