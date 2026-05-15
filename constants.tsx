@@ -3,95 +3,106 @@ import { NewsItem, Publication, Project, CoffeeLog } from './types';
 
 export const NEWS_DATA: NewsItem[] = [
   {
+    date: "May, 2026",
+    content: "New IEEE Xplore article published: Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI.",
+    link: "https://doi.org/10.1109/ICCIT68739.2025.11491590",
+    linkText: "DOI"
+  },
+  {
     date: "Dec, 2025",
-    content: "Co-authored paper published: Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI: News from Bangladesh, India, and Pakistan at ICCIT 2025 (28th International Conference on Computer and Information Technology, Long Beach Hotel, Cox's Bazar, Bangladesh, organized by the IEEE)",
-    link: "https://iccit.org.bd/2025/home/",
-    linkText: "ICCIT 2025"
+    content: "Completed research work with Dr. Mahdy Rahman Chowdhury’s research group at North South University, focusing on NLP-based media narrative analysis.",
+    link: "https://ece.northsouth.edu/people/mahdy-rahman-chowdhury/",
+    linkText: "Research Group"
   },
   {
     date: "Nov, 2025",
-    content: "Early results from MSc thesis accepted as contributory poster at ICASDS 2025 (International Conference on Applied Statistics and Data Science, ISRT, Dhaka University)",
+    content: "Early results from my MSc thesis were accepted as a contributory poster at ICASDS 2025, ISRT, University of Dhaka.",
     link: "https://drive.google.com/file/d/1Vbw1o4vFOR0WLpyWd4SCFBom7apPF8Y2/view?usp=drive_link",
-    linkText: "ICASDS 2025"
-  },
-  {
-    date: "Nov, 2025",
-    content: "Co-authored paper published: Trends and determinants of antenatal care use and quality in Bangladesh in PLOS One",
-    link: "https://doi.org/10.1371/journal.pone.0337449",
-    linkText: "doi:10.1371/journal.pone.0337449"
-  },
-  {
-    date: "Mar, 2025",
-    content: "Started as Graduate Research Assistant in Dr. Md. Maniruzzaman's Lab, Statistics Discipline, Khulna University",
-    link: "https://ku.ac.bd/discipline/stat/faculty/monir.stat91",
-    linkText: "Maniruzzaman Lab"
+    linkText: "Poster"
   },
   {
     date: "Jan, 2025",
-    content: "Graduated from Khulna University with B.Sc. Statistics!",
-    link: "https://ku.ac.bd/discipline/stat",
-    linkText: "Statistics Dept"
-  },
-  {
-    date: "Dec, 2024",
-    content: "Completed Research Assistant position (Jun 2023 – Dec 2024) at Sutapa Dey Barna's Lab, Statistics Discipline, Khulna University",
-    link: "https://ku.ac.bd/discipline/stat/faculty/sutapaborna.ku",
-    linkText: "Sutapa Barna Lab"
+    content: "Started as Graduate Researcher at Statistics Discipline, Khulna University",
+    link: "https://ku.ac.bd/",
+    linkText: "Khulna University"
   }
 ];
 
 export const PUBLICATIONS_DATA: Publication[] = [
+  // 2026
   {
-    id: "pub-0",
-    title: "Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI: News from Bangladesh, India, and Pakistan",
-    authors: "Shozol, S. A., Hossain, M. G., & Mahdy, M.R.C. (2025, Dec)",
-    venue: "28th International Conference on Computer and Information Technology (ICCIT) 2025, Cox's Bazar, Bangladesh (IEEE)",
+    id: "pub-2026-1",
+    title: "Ensemble Model for Predicting Depression among School Teachers: A Cross-sectional Study in Rajshahi and Khulna Regions of Bangladesh",
+    authors: "Hossain, M. G., & Maniruzzaman, M.",
+    venue: "Journal manuscript",
+    year: 2026,
+    thumbnail: "Manuscript",
+    type: "Journal Manuscript",
+    status: "To be submitted"
+  },
+  {
+    id: "pub-2026-2",
+    title: "Development of Predictive Models for Gallstone Disease Using Machine Learning Techniques",
+    authors: "Nahin, M. H., Barman, S. K., Hossain, M. G., & Maniruzzaman, M. (2026, Jun)",
+    venue: "PECCII 2026",
+    year: 2026,
+    thumbnail: "PECCII",
+    type: "Conference Paper",
+    status: "Accepted"
+  },
+  {
+    id: "pub-2026-3",
+    title: "An Interpretable Fake News Detection Framework: From Classical Machine Learning to Transformers with LIME",
+    authors: "Hossain, M. G., Shozol, S. A., Hossain, K. S., & Barna, S. D. (2026, Jan)",
+    venue: "1st International Conference on Multidisciplinary Research in Sciences (ICMRS 2026)",
+    year: 2026,
+    thumbnail: "ICMRS",
+    type: "Conference Abstract",
+    pdfUrl: "https://drive.google.com/file/d/1k7BR2LLhrurkOHtvaVKtgAl_lrVqNA3_/view?usp=sharing"
+  },
+
+  // 2025
+  {
+    id: "pub-2025-1",
+    title: "Analyzing Media Narratives of the 2024 Bangladesh Mass Movement Using Topic Modeling, Machine Learning, and Explainable AI",
+    authors: "Shozol, S. A., Hossain, M. G., & Chowdhury, M. R. (2025, Dec)",
+    venue: "28th International Conference on Computer and Information Technology (ICCIT 2025), IEEE",
     year: 2025,
     thumbnail: "ICCIT",
-    type: "Paper",
-    pdfUrl: "https://iccit.org.bd/2025/home/",
-    doi: "10.1109/ICCIT.2025.XXXX"
+    type: "Conference Paper",
+    doi: "10.1109/ICCIT68739.2025.11491590",
+    pdfUrl: "https://doi.org/10.1109/ICCIT68739.2025.11491590"
   },
   {
-    id: "pub-1",
-    title: "Developing an Ensemble Model for Predicting Depression among School Teachers: A Cross-sectional Study in Rajshahi and Khulna Regions of Bangladesh",
-    authors: "Hossain, M. G., Hossain, Md. S., Arfin, Md. S., Zaman, Md. S., Asadujjaman, Md., Roy, T. K., Alauddin, S., & Maniruzzaman, Md. (2025).",
-    venue: "Contributory Poster, International Conference on Applied Statistics and Data Science (ICASDS) 2025, ISRT, Dhaka University",
-    year: 2025,
-    thumbnail: "ICASDS",
-    type: "Poster",
-    pdfUrl: "https://drive.google.com/file/d/1Vbw1o4vFOR0WLpyWd4SCFBom7apPF8Y2/view?usp=sharing"
-  },
-  {
-    id: "pub-2",
+    id: "pub-2025-2",
     title: "Trends and determinants of antenatal care use and quality in Bangladesh: Insights from demographic and health survey data",
-    authors: "Sutapa Dey Barna, Abdul Quayyum, Md. Goffar Hossain, Akhtarul Islam, Fuad Rahman",
-    venue: "PLOS One",
+    authors: "Barna, S. D., Quayyum, M. A., Hossain, M. G., Islam, M. A., & Rahman, F. (2025)",
+    venue: "PLOS ONE",
     year: 2025,
     thumbnail: "PLOS ONE",
-    type: "Paper",
+    type: "Journal Article",
     doi: "10.1371/journal.pone.0337449",
     pdfUrl: "https://doi.org/10.1371/journal.pone.0337449"
   },
   {
-    id: "pub-3",
-    title: "Impact of Covid-19 outbreak on the food habits and nutritional status of Khulna's citizens",
-    authors: "Barna, S. D., Quayyum, A., Hossain, M. G., Islam, A., & Rahman, F. (2025)",
-    venue: "Poster Presentation, IQAC-2025 Conference, Khulna University",
+    id: "pub-2025-3",
+    title: "Developing an Ensemble Model for Predicting Depression among School Teachers: A Cross-sectional Study in Rajshahi and Khulna Regions of Bangladesh",
+    authors: "Hossain, M. G., Hossain, M. S., Arfin, M. S., Zaman, M. S., Asadujjaman, M., Roy, T. K., Alauddin, S., & Maniruzzaman, M. (2025, Aug)",
+    venue: "International Conference on Applied Statistics and Data Science 2025 (ICASDS 2025), University of Dhaka",
     year: 2025,
-    thumbnail: "IQAC",
-    type: "Poster",
-    pdfUrl: "https://drive.google.com/file/d/1R4ohTIDkH6gyzJXTsSwjZhSyQ62r51Ng/view?usp=sharing"
+    thumbnail: "ICASDS",
+    type: "Conference Poster",
+    pdfUrl: "https://drive.google.com/file/d/1GyQWHf9g5NomTS_nc7z55uOaM5Q60Q5A/view?usp=drive_link"
   },
   {
-    id: "pub-4",
-    title: "Cross-National Media Framing of Mass Movements: A Comparative Study of the July 2024 Uprising in South Asia",
-    authors: "Shozol, S. A., & Hossain, M. G. (2025, July)",
-    venue: "Poster Presentation, International Conference on July Revolution (ICJR-I), 2025",
+    id: "pub-2025-4",
+    title: "Cross-national Media Framing of Mass Movements: A Comparative Study of the July 2024 Uprising in South Asia",
+    authors: "Shozol, S. A., & Hossain, M. G. (2025, Jul)",
+    venue: "1st International Conference on the July Revolution (ICJR-I 2025), University of Dhaka",
     year: 2025,
-    thumbnail: "ICJR",
-    type: "Poster",
-    pdfUrl: "https://drive.google.com/file/d/1GAIo2Cg5wLoTFmLpa_9jbVKV-oi1vFK3/view?usp=sharing"
+    thumbnail: "ICJR-I",
+    type: "Conference Poster",
+    pdfUrl: "https://drive.google.com/file/d/1Gfj0enSRqMXsfgCoGK_5BCRaPM6uMO_s/view?usp=drive_link"
   }
 ];
 
