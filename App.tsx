@@ -246,21 +246,34 @@ const App: React.FC = () => {
     );
   };
 
-  const PublicationsPage = () => (
+const PublicationsPage = () => {
+  const years = [2026, 2025];
+
+  return (
     <div className="animate-fadeIn">
-      <h1 className="text-4xl font-bold mb-12 text-[#3c7f3c] uppercase tracking-widest">Publications</h1>
+      <h1 className="text-4xl font-bold mb-12 text-[#3c7f3c] uppercase tracking-widest">
+        Publications
+      </h1>
+
       <div className="space-y-12">
-        <div className="relative">
-          <div className={`absolute left-0 top-1/2 -translate-y-1/2 w-full h-[1px] -z-10 ${isDarkMode ? 'bg-gray-800' : 'bg-slate-200'}`}></div>
-          <span className={`pr-4 text-2xl font-bold text-gray-500 transition-colors ${isDarkMode ? 'bg-transparent' : 'bg-[#f8fafc]'}`}>2025</span>
-        </div>
-        {PUBLICATIONS_DATA.filter(p => p.year === 2025).map(pub => (
-          <PublicationCard key={pub.id} pub={pub} />
+        {years.map(year => (
+          <div key={year} className="space-y-8">
+            <div className="relative">
+              <div className={`absolute left-0 top-1/2 -translate-y-1/2 w-full h-[1px] -z-10 ${isDarkMode ? 'bg-gray-800' : 'bg-slate-200'}`}></div>
+              <span className={`pr-4 text-2xl font-bold text-gray-500 transition-colors ${isDarkMode ? 'bg-transparent' : 'bg-[#f8fafc]'}`}>
+                {year}
+              </span>
+            </div>
+
+            {PUBLICATIONS_DATA.filter(p => p.year === year).map(pub => (
+              <PublicationCard key={pub.id} pub={pub} />
+            ))}
+          </div>
         ))}
       </div>
     </div>
   );
-
+};
   const ProjectsPage = () => (
     <div className="animate-fadeIn">
       <h1 className="text-4xl font-bold mb-12 text-[#3c7f3c] uppercase tracking-widest">Projects</h1>
