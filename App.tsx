@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { PageId, Publication, CoffeeLog } from './types';
 import { NEWS_DATA, PUBLICATIONS_DATA, PROJECTS_DATA, COFFEE_LOGS } from './constants';
 import { BBSymbol } from './components/BBSymbol';
-import { Github, Linkedin, Mail, ExternalLink, Sun, Moon, ArrowLeft } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Sun, Moon, ArrowLeft, GraduationCap } from 'lucide-react';
+
 
 const App: React.FC = () => {
   const [activePage, setActivePage] = useState<PageId>('about');
@@ -153,6 +154,7 @@ const App: React.FC = () => {
   const SocialLinks = () => (
     <div className={`flex gap-6 mt-8 py-6 border-t ${isDarkMode ? 'border-gray-800' : 'border-slate-300'}`}>
       <a href="https://github.com/Goffar-dp" target="_blank" className="hover:scale-110 transition-transform"><Github className={`${isDarkMode ? 'text-gray-400 hover:text-white' : 'text-slate-600 hover:text-black'}`} /></a>
+      <a href="https://scholar.google.com/citations?user=6HN-Q-IAAAAJ&hl=en" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform"> <GraduationCap className={`${isDarkMode ? 'text-gray-400 hover:text-blue-400' : 'text-slate-600 hover:text-blue-600'}`} /></a>
       <a href="https://www.linkedin.com/in/goffar-hossain/" target="_blank" className="hover:scale-110 transition-transform"><Linkedin className={`${isDarkMode ? 'text-gray-400 hover:text-blue-600' : 'text-slate-600 hover:text-blue-700'}`} /></a>
       <a href="mailto:goffarfahim@gmail.com" className="hover:scale-110 transition-transform"><Mail className={`${isDarkMode ? 'text-gray-400 hover:text-red-400' : 'text-slate-600 hover:text-red-500'}`} /></a>
     </div>
